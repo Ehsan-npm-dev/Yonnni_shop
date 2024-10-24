@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div className="section-1 rounded-lg ">
-      <div className=" bg-black rounded-xl">
+      <div className=" flex justify-between gap-4 rounded-xl">
         <img src={logo} alt="" className="logo" />
         <div className="top-right2">
           {" "}

@@ -24,9 +24,9 @@
 
 .top-right2 {
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding-left: 10px;
+  justify-content: space-around;
+  gap: 20px; 
+  ;
 }
 
 .span{
