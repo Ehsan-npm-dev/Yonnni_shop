@@ -12,34 +12,35 @@ import "./header.css";
 function Header() {
 
   return (
-    <div className="section-1 rounded-lg ">
-      <div className=" flex justify-between gap-4 rounded-xl">
-        <img src={logo} alt="" className="logo" />
+    <div className="section-1">
+
+      <div className=" flex justify-between gap-4 p-2 ">
+        <img src={logo} alt="logo" className="logo" />
         <div className="top-right2">
           {" "}
-          <Link className="p-2 flex">{<MdCall />}</Link>
-          <Link className="p-2" to="/login">
+          <Link className="p-2  border rounded-full bg-slate-300 text-gray-800">{<MdCall />}</Link>
+          <Link className="p-2 border rounded-full bg-slate-300 text-gray-700" to="/login">
             {<MdPersonalInjury />}
           </Link>
-          <Link className="border bg-slate-100   rounded-sm  items-center text-base size-8 flex justify-center">
+          <Link className="border text-white p-2  rounded-full bg-slate-500  items-center text-base size-8 flex justify-center">
             {<SlBasket />}
           </Link>
         </div>
       </div>
 
-      <div className="top-left" >
+      <div className="container" >
         {<BiMenu />}
 
         <div className="top-left2 ">
           {" "}
-          <form action="#" className="form-search  bg-black">
+          <form action="#" className="form-search ">
             <input
               type="search"
               placeholder="جستجو در محصولات"
               className="input focus:outline-none rounded-r-lg"
             />
 
-            <button className="btn hover:bg-red-600 rounded-r-none rounded-l-lg">
+            <button className="btn hover:bg-purple-700 rounded-r-none rounded-l-lg">
               <IoSearch />
             </button>
           </form>

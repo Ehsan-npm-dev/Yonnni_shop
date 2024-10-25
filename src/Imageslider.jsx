@@ -6,9 +6,9 @@ import CustomSlider from "./components/custom.slider";
 
 import "./styles.css";
 
-export default function Imageslider() {
+export default function ImageSlider() {
   return (
-    <div className="Imageslider">
+    <div className="">
       <CustomSlider>
         {images.map((image, index) => {
           return <img key={index} src={image.imgURL} alt={image.imgAlt} />;

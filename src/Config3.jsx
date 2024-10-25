@@ -7,8 +7,9 @@ export const sells= [
     {
 
         img:<img src={te}/>,
-        title:"es",
-        number:"123"
+        title:"کفش بوکس نایک",
+        price:"1,795,000 تومان",
+        number:"1,695,000 تومان"
 
     }
     ,
@@ -16,8 +17,9 @@ export const sells= [
     {
 
         img:<img src={te}/>,
-        title:"es",
-        number:"123"
+        title:"دستکش BUKA",
+        number:"3,750,000",
+        price :"3,550,000"
 
     }
 

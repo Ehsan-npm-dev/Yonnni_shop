@@ -1,6 +1,7 @@
 .container__slider {
     position: relative;
-    width: 100%;
+    width: 300px;
+    height: 200px;
     padding: 0;
     overflow: hidden;
     display: flex;
@@ -8,7 +9,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: black;
+    background-color: white;
   }
   
   .container__slider > button {
@@ -49,13 +50,13 @@
     outline: none;
     border: 0;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(16, 16, 16);
     transition: background-color 1s ease;
     margin: 0 2px;
   }
   
   .container__slider__links-small-active {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
   }
   
   .slider__item {
@@ -98,7 +99,8 @@
   }
   
   .slider__item img {
-    width: 100%;
-    height: auto;
+    width:300px;
+    height: 300px;
+   
   }
   

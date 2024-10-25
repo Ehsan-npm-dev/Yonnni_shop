@@ -1,19 +1,20 @@
 import React from "react";
-import ice from "../../assets/img/Box/final-01.png"
+import ice from "../../assets/img/final-01-mobile.png";
 import "./box.css";
 import LiveItemAtom from "../atom/liveItem.Atom";
-import {sells} from '\../../Config3'
+import { sells } from "../../Config3";
+
 function BoxMol() {
   return (
-    <div className="buy ">
-      <div className="buy-title">
+    <div className="box ">
+      <div className="box-detail">
+
         <div className="buy-pic">
-          <img src={ice} alt="" className="size-16 "/>
+          <img src={ice} alt="" className="w-[150px] p-2  " />
         </div>
 
-        <div className="slider-1">
-
-        {sells.map((i)=>(
+        <div className="box-product">
+          {sells.map((i) => (
             <LiveItemAtom {...i} />
           ))}
         </div>
