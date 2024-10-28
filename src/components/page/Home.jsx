@@ -3,7 +3,7 @@ import React from "react";
 import "./home.css";
 
 import ProductMol from "../molecule/Product.Mol";
-
+import PicAtom from "../atom/Pic.Atom";
 import BoxMol from "../molecule/Box.Mol";
 import MoreMol from "../molecule/More.Mol";
 import BigMol from "../molecule/Big.Mol";
@@ -25,9 +25,7 @@ function Home() {
           <div>
             <BoxMol />
           </div>
-          <div>
-            <h4 className="new ">محصولات جدید</h4>
-          </div>
+
           <div className="">
             <ProductMol />
           </div>
@@ -41,6 +39,10 @@ function Home() {
 
           <div>
             <LastMol />
+          </div>
+
+          <div>
+            <PicAtom/>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { details } from "../../Config4";
+import { details } from "../template/reference"
 import "./big.css";
 import TitleItemAtom from "../atom/TitleItem.Atom";
 function BigMol() {

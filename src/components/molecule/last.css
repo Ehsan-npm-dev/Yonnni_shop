@@ -1,17 +1,19 @@
 .last {
   padding: 5px;
   background-color: rgb(246, 246, 246);
+  border: 1px solid rgb(221, 221, 221);
+  height: 270px;
 }
 
 .last-btn {
   display: flex;
- margin-top: 5px;
+  margin-top: 10px;
   padding: 5px;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 .last-title {
   font-weight: 500;
   font-size: 13px;
-  padding-bottom: 10px;
+  padding: 5px;
 }

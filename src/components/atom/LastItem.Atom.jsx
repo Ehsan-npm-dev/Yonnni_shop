@@ -1,30 +1,22 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom'
-import "./lastitem.css"
-function LastItemAtom({img ,date , title , detail , link , url}) {
- 
- const navigate = useNavigate()
- const handleClick5 = () => {
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./lastitem.css";
+import { Link } from "react-router-dom";
+function LastItemAtom({ img, title, price, url }) {
+  const navigate = useNavigate();
+  const handleClick5 = () => {
+    navigate(url);
+  };
 
-  navigate(url)
- }
- 
   return (
-    <div onClick={handleClick5} className='roof'>
-
-      <div className='roof-1'>
-
-
-        <h3 className='roof-img'>{img}</h3>
-        <h4 className='roof-date'>{date}</h4>
-        <h2 className='roof-title'>{title}</h2>
-        <p className='roof-detail'>{detail}</p>
-        <Link className='roof-link'>{link}</Link>
+    <Link>
+      <div onClick={handleClick5} className="roof">
+        <h3 className="">{img}</h3>
+        <h4 className="text-[12px] font-semibold ">{title}</h4>
+        <h3 className="text-[12px] font-mono hover:text-gray-500">{price}</h3>
       </div>
-      
-    </div>
-  )
+    </Link>
+  );
 }
 
-export default LastItemAtom
+export default LastItemAtom;

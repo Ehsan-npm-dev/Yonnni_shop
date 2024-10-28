@@ -1,12 +1,12 @@
 import React from "react";
 import "./last.css";
 import LastItemAtom from "../atom/LastItem.Atom";
-import { lasts } from "../../Config5";
+import { lasts } from "../template/reference";
 function LastMol() {
   return (
     <div className="last">
-      <h3 className="last-title">آخرین مقالات کیسه بوکس</h3>
-      <hr />
+      <h3 className="last-title"> دستکش بوکس</h3>
+      <hr className="mt-1" />
       <div className="last-btn">
         {lasts.map((i) => (
           <LastItemAtom {...i} />

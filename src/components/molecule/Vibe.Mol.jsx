@@ -1,7 +1,7 @@
 import React from "react";
 
 import ImageItemAtom from "../atom/ImageItem.Atom";
-import { images } from "../../Config6";
+import { images } from "../template/reference";
 function VibeMol() {
   return (
     <div className="link-down2">
