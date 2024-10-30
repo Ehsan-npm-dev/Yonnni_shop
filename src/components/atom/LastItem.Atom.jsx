@@ -11,7 +11,7 @@ function LastItemAtom({ img, title, price, url }) {
   return (
     <Link>
       <div onClick={handleClick5} className="roof">
-        <h3 className="">{img}</h3>
+        <h3>{img}</h3>
         <h4 className="text-[12px] font-semibold ">{title}</h4>
         <h3 className="text-[12px] font-mono hover:text-gray-500">{price}</h3>
       </div>

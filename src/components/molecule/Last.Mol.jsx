@@ -6,7 +6,7 @@ function LastMol() {
   return (
     <div className="last">
       <h3 className="last-title"> دستکش بوکس</h3>
-      <hr className="mt-1" />
+    <hr className="mt-2" />
       <div className="last-btn">
         {lasts.map((i) => (
           <LastItemAtom {...i} />

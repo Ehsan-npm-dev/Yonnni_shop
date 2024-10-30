@@ -1,6 +1,9 @@
 import React from "react";
 import "./link.css";
-
+import { FaInstagram } from "react-icons/fa";
+import { BsTelegram } from "react-icons/bs";
+import { FaYoutube } from "react-icons/fa";
+import { IoIosFilm } from "react-icons/io";
 function LinkMol() {
   return (
     <section className="sec">
@@ -32,11 +35,13 @@ function LinkMol() {
       </div>
 
       <div className="sec-low">
-        <ul className="wet">
-          <li className="bold">همراه ما باشید</li>
-          <li>kh</li>
-          <li>7</li>
-          <li>9</li>
+        <h3 className=" mt-1  text-[10px] font-bold ">همراه ما باشید</h3>
+        <ul className="sheet">
+        
+          <li><FaInstagram className="size-5"/></li>
+          <li><BsTelegram  className="size-5"/></li>
+          <li><FaYoutube className="size-5"/></li>
+          <li><IoIosFilm className="size-5" /></li>
         </ul>
       </div>
     </section>

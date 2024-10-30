@@ -16,7 +16,7 @@ export const routes = [
     name: "مت یوگا",
     title: " موجود در انبار",
     icon3: <AiOutlineOpenAI />,
-    inventory: "۹۹,۰۰۰ تومان",
+    inventory: <Link>"۹۹,۰۰۰ تومان"</Link>,
     url: "",
   },
   {
@@ -26,7 +26,7 @@ export const routes = [
     img: <img src={te} />,
     title: " موجود در انبار",
     icon3: <AiOutlineOpenAI />,
-    inventory: "۹۹,۰۰۰ تومان",
+    inventory: <Link>"۹۹,۰۰۰ تومان"</Link>,
     url: "",
   },
 ];

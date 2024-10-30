@@ -11,10 +11,10 @@ function TitleItemAtom({ img, name, sport, title, url, link }) {
     <div onClick={handleClick4} className="newspaper">
       <div className="news-box">
         <div className="boi">
-          <h3>{img}</h3>
+          <h3 className="">{img}</h3>
           <span>
-            <h3 className="text-[12px] font-semibold">{name}</h3>
-            <h4 className="text-[12px] font-mono">{sport}</h4>
+            <h3 className="text-[12px] font-semibold mt-3">{name}</h3>
+            <h4 className="text-[12px]  font-mono">{sport}</h4>
           </span>
         </div>
 

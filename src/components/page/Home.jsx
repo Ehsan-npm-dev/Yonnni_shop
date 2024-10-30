@@ -1,7 +1,6 @@
 import React from "react";
-
 import "./home.css";
-
+import KiseMol from "../molecule/Kise.Mol";
 import ProductMol from "../molecule/Product.Mol";
 import PicAtom from "../atom/Pic.Atom";
 import BoxMol from "../molecule/Box.Mol";
@@ -10,7 +9,7 @@ import BigMol from "../molecule/Big.Mol";
 import LastMol from "../molecule/Last.Mol";
 import Imageslider from "../../Imageslider";
 import VibeMol from "../../components/molecule/Vibe.Mol";
-
+import OrderMol from "../molecule/Order.Mol";
 function Home() {
   return (
     <div className="slide">
@@ -34,7 +33,7 @@ function Home() {
           </div>
 
           <div>
-            <BigMol />
+            <PicAtom />
           </div>
 
           <div>
@@ -42,7 +41,14 @@ function Home() {
           </div>
 
           <div>
-            <PicAtom/>
+            <KiseMol />
+          </div>
+          <div>
+            <BigMol />
+          </div>
+
+          <div>
+            <OrderMol />
           </div>
         </div>
       </div>
